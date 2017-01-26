@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+<web-app>
+
+	<welcome-file-list>
+		<welcome-file>/htmls/LoginPage.html</welcome-file>
+	</welcome-file-list>
+
+
+
+
+	<!-- LoginTest -->
+	<servlet>
+		<servlet-name>LoginTest</servlet-name>
+		<servlet-class>com.training.LoginTest</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginTest</servlet-name>
+		<url-pattern>/LoginTest</url-pattern>
+	</servlet-mapping>
+	<!-- LoginTest -->
+
+
+<!-- Upload -->
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>com.training.Upload</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/Upload</url-pattern>
+	</servlet-mapping>
+	<!-- Update -->
+
+
+
+
+<!-- Update -->
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>com.training.Update</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/Update</url-pattern>
+	</servlet-mapping>
+	<!-- Update -->
+	
+	<!-- UpdateDisplay -->
+	<servlet>
+		<servlet-name>UpdateDisplay</servlet-name>
+		<servlet-class>com.training.UpdateDisplay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateDisplay</servlet-name>
+		<url-pattern>/UpdateDisplay</url-pattern>
+	</servlet-mapping>
+	<!-- UpdateDisplay -->
+
+
+	<!-- Home -->
+	<servlet>
+		<servlet-name>Home</servlet-name>
+		<servlet-class>com.training.Home</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Home</servlet-name>
+		<url-pattern>/Home</url-pattern>
+	</servlet-mapping>
+	<!-- Home -->
+<!-- Delete -->
+	<servlet>
+		<servlet-name>Delete</servlet-name>
+		<servlet-class>com.training.Delete</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Delete</servlet-name>
+		<url-pattern>/Delete</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteDisplay -->
+
+<!-- DeleteDisplay -->
+	<servlet>
+		<servlet-name>DeleteDisplay</servlet-name>
+		<servlet-class>com.training.DeleteDisplay</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteDisplay</servlet-name>
+		<url-pattern>/DeleteDisplay</url-pattern>
+	</servlet-mapping>
+	<!-- DeleteDisplay -->
+
+
+	<!-- SignupServlet -->
+	<servlet>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>com.training.SignupServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/SignupServlet</url-pattern>
+	</servlet-mapping>
+	<!-- SignupServlet -->
+
+	
+
+</web-app>
